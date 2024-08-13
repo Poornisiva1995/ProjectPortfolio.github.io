@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="convert.css">
+</head>
+<body>
+<div class="box">
+    
+    <div class="min"><h1>Seconds to Minutes Converter</h1>
+    <input type="text" id="input">
+    <button type="button" onclick="getvalue()">Click Here</button><br>
+    <b>Minutes : </b><h1 id="output" ></h1></div>
+    
+    <div class="kil"><h1>Kilometre to metre Converter</h1>
+    <input type="text" id="metre">
+    <button type="button" onclick="gotvalue()">Click Here</button><br>
+    <b>Meters : </b><h1 id="kilo"></h1></div>
+
+    <div class="gramk"><h1>Gram to kilogram Converter</h1>
+    <input type="text" id="should">
+    <button type="button" onclick="kilogram()">Click Here</button><br>
+    <b>Kilograms :</b><h1 id="con"></h1></div>
+
+    <div class="hours"><h1>Hours to Minutes Converter</h1>
+    <input type="text" id="must">
+    <button type="button" onclick="hours()">Click Here</button><br>
+    <b>Minutes :</b><h1 id="bust"></h1></div>
+
+    <div class="feh"><h1>Fehrenheit to Celsius Converter</h1>
+    <input type="text" id="put">
+    <button type="button" onclick="frehren()">Click Here</button><br>
+    <b>Celcius :</b><h1 id="good"></h1></div>
+
+    <div class="foot"><h1>Foot to Metres Converter</h1>
+    <input type="text" id="god">
+    <button type="button" onclick="duck()">Click Here</button><br>
+    <b>Meters :</b><h1 id="best"></h1></div>
+</div>
+    <script>
+        function getvalue(){
+            let display = document.querySelector("#input").value
+            let out = document.querySelector("#output")
+            let minutes = display/60
+            out.innerHTML=minutes
+        }
+
+        function gotvalue(){
+            let play = document.querySelector("#metre").value
+            let solo = document.querySelector("#kilo")
+            let kilometre = play*1000
+            solo.innerHTML=kilometre
+        }
+
+        function kilogram(){
+            let owl = document.querySelector("#should").value
+            let mingle = document.querySelector("#con")
+            let gram = owl*0.001
+            mingle.innerHTML=gram
+        }
+
+        function hours(){
+            let crow = document.querySelector("#must").value
+            let float = document.querySelector("#bust")
+            let minutes = crow*60
+            float.innerHTML=minutes
+        }
+
+        function frehren(){
+            let parot = document.querySelector("#put").value
+            let double = document.querySelector("#good")
+            let celcius = (parot-32)*(5/9)
+            double.innerHTML=celcius
+        }
+        function duck(){
+            let peacock = document.querySelector("#god").value
+            let took = document.querySelector("#best")
+            let metres = 0.3048*peacock
+            took.innerHTML=metres
+        }
+    </script>
+</body>
+</html>

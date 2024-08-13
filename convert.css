@@ -1,0 +1,104 @@
+body{
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px;
+}
+button{
+    background: linear-gradient(to left,rgb(0, 255, 0),rgb(215, 28, 175));
+    color:rgba(0, 0, 0, 0.934);
+    font-size: 20px;
+}
+.min{
+    background: linear-gradient(rgb(191, 18, 47),rgb(255, 255, 0));
+    height: 150px;
+    width: 450px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px solid transparent;
+    transition-duration: 4s;
+}
+.min:hover{
+    transform:scale(1.25); 
+    transition-timing-function: ease-in-out;
+}
+.kil{
+    background: linear-gradient(rgb(77, 16, 219),rgb(230, 15, 162));
+    height: 150px;
+    width: 450px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px solid transparent;
+    transition-duration: 4s;
+}
+.kil:hover{
+    transform:scale(1.25); 
+    transition-timing-function: ease-in-out;
+}
+.gramk{
+    background: linear-gradient(rgb(15, 188, 176),rgb(205, 12, 44));
+    height: 150px;
+    width: 450px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px solid transparent;
+    transition-duration: 4s;
+}
+.gramk:hover{
+    transform:scale(1.25); 
+    transition-timing-function: ease-in-out;
+}
+.hours{
+    background: linear-gradient(rgb(255, 255, 0),rgb(25, 211, 25));
+    height: 150px;
+    width: 450px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px solid transparent;
+    transition-duration: 4s;
+}
+.hours:hover{
+    transform:scale(1.25); 
+    transition-timing-function: ease-in-out;
+}
+.feh{
+    background: linear-gradient(rgb(16, 212, 114),rgb(215, 151, 12));
+    height: 150px;
+    width: 450px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px solid transparent;
+    transition-duration: 4s;
+}
+.feh:hover{ 
+    transform:scale(1.25); 
+    transition-timing-function: ease-in-out;
+}
+.foot{
+    background: linear-gradient(rgb(148, 66, 51),rgb(127, 107, 184));
+    height: 150px;
+    width: 450px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px solid transparent;
+    transition-duration: 4s;
+}
+.foot:hover{
+    transform:scale(1.25); 
+    transition-timing-function: ease-in-out;
+}
+.box{
+
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 200px;
+}

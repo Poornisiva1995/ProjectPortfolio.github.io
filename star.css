@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type{
+    background-color: rgb(141, 192, 236);
+}
+.star{
+    border:none;
+    background-color: unset;
+    color: rgb(209, 171, 73);
+    font-size: 3rem;
+}
+p{
+    text-align: center;
+}

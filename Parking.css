@@ -1,0 +1,9 @@
+div{
+    background: linear-gradient(to right,rgb(107, 229, 229),rgb(218, 117, 196));
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
